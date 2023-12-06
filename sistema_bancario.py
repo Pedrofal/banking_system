@@ -25,7 +25,7 @@ while True :
     if opcao == 1:
         valor_deposito = float(input("Qual o valor do deposito?"))
         saldo += valor_deposito
-        deposito = f"Você depositou R$: {valor_deposito}"
+        deposito = f"Você depositou R$: {valor_deposito:.2f}"
         depositos.append(deposito)
     
     if opcao == 2:
