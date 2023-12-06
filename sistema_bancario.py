@@ -46,7 +46,7 @@ while True :
     if opcao == 3:
         print(f"Você recebeu os seguintes depósitos: {depositos}")
         print(f"Você fez os seguintes saques: {saques}")
-        print(f"Seu saldo atual é: R${saldo}")
+        print(f"Seu saldo atual é: R${saldo:.2f}")
     
     if opcao == 4:
         print("Você saiu do sistema")
